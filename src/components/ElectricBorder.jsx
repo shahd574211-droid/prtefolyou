@@ -22,6 +22,7 @@ function ElectricBorder({
   speed = 1,
   chaos = 0.12,
   borderRadius = 14,
+  borderOffset = 4,
   className = '',
   style = {},
 }) {
@@ -153,8 +154,7 @@ function ElectricBorder({
     const amplitude = chaos
     const frequency = 10
     const baseFlatness = 0
-    const displacement = 35
-    const borderOffset = 30
+    const displacement = 3
 
     const updateSize = () => {
       const rect = container.getBoundingClientRect()
@@ -254,13 +254,18 @@ function ElectricBorder({
       if (animationRef.current) window.cancelAnimationFrame(animationRef.current)
       resizeObserver.disconnect()
     }
-  }, [borderRadius, chaos, color, getRoundedRectPoint, octavedNoise, speed])
+  }, [borderOffset, borderRadius, chaos, color, getRoundedRectPoint, octavedNoise, speed])
 
   return (
     <div
       ref={containerRef}
       className={`electric-border ${className}`}
-      style={{ borderRadius, '--electric-border-color': color, ...style }}
+      style={{
+        borderRadius,
+        '--electric-border-color': color,
+        '--electric-border-offset': `${borderOffset}px`,
+        ...style,
+      }}
     >
       <div className="electric-border-canvas-wrap">
         <canvas ref={canvasRef} className="electric-border-canvas" />

@@ -83,7 +83,7 @@ export const translations = {
           rating: 4.8,
           result:
             'Improved purchase flow clarity and delivered a responsive shopping experience across all devices.',
-          liveUrl: 'https://skincare-store-brown.vercel.app',
+          liveUrl: 'https://skincare-store-one.vercel.app',
           image: '/skincare-store.png',
         },
         {
@@ -299,7 +299,7 @@ export const translations = {
           rating: 4.8,
           result:
             'تحسين وضوح مسار الشراء وتقديم تجربة تسوق متجاوبة وسهلة الاستخدام على جميع الأجهزة.',
-          liveUrl: 'https://skincare-store-brown.vercel.app',
+          liveUrl: 'https://skincare-store-one.vercel.app',
           image: '/skincare-store.png',
         },
         {

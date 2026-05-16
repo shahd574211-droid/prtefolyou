@@ -87,6 +87,17 @@ export const translations = {
           image: '/skincare-store.png',
         },
         {
+          name: 'Dental Supply Store',
+          description:
+            'Built an Arabic RTL storefront for dental supplies with a clean hero section, organized product browsing, and a WhatsApp-first ordering flow that keeps checkout off-site while guiding students and dentists through clear next steps, with emphasis on trust, readability, and mobile-friendly catalog discovery.',
+          technologies: ['React', 'RTL Arabic UI', 'E-commerce UX', 'Vercel'],
+          rating: 4.8,
+          result:
+            'Simplified product discovery and made clinic ordering clearer through a light, professional interface and direct WhatsApp handoff.',
+          liveUrl: 'https://dc-shop-ten.vercel.app',
+          image: '/dc-shop.png',
+        },
+        {
           name: 'Medical System',
           description:
             'Developed a medical workflow system to organize patient records, appointments, doctor schedules, and daily clinic operations in one dashboard with structured navigation and role-oriented data views, helping clinic teams monitor workload and complete routine actions faster with fewer manual steps.',
@@ -301,6 +312,17 @@ export const translations = {
             'تحسين وضوح مسار الشراء وتقديم تجربة تسوق متجاوبة وسهلة الاستخدام على جميع الأجهزة.',
           liveUrl: 'https://skincare-store-one.vercel.app',
           image: '/skincare-store.png',
+        },
+        {
+          name: 'متجر مستلزمات الأسنان',
+          description:
+            'تطوير متجر إلكتروني عربي (RTL) لمستلزمات طب الأسنان بواجهة رئيسية نظيفة وتصفح منتجات منظم ومسار طلب عبر واتساب بدون دفع داخل الموقع، مع توجيه واضح للطلاب وأطباء الأسنان نحو خطوات الشراء، وتركيز على الثقة وقابلية القراءة وتجربة متجاوبة على الجوال.',
+          technologies: ['React', 'واجهة عربية RTL', 'تجربة متجر', 'Vercel'],
+          rating: 4.8,
+          result:
+            'تسهيل اكتشاف المنتجات وتوضيح طلب العيادة عبر واجهة احترافية خفيفة وتحويل مباشر إلى واتساب.',
+          liveUrl: 'https://dc-shop-ten.vercel.app',
+          image: '/dc-shop.png',
         },
         {
           name: 'نظام طبي',
